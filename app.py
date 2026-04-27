@@ -3,6 +3,8 @@ while True:
 
     if 'agendar' in mensagem.lower():
         print('Agente: Claro! Para qual data e horário você gostaria de agendar?')
+        if 'hoje' in mensagem.lower():
+            print('Agente: Ótimo! Vou agendar para hoje. Qual horário você prefere?')
     elif 'cancelar' in mensagem.lower():
         print('Agente: Entendido. Qual é o número do seu agendamento para que eu possa cancelá-lo?')
     elif 'preço' in mensagem.lower():
